@@ -3,19 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Viewer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ana's Loan Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #loan-info {
+            background-color: #ffffff;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        div {
+            margin-bottom: 20px;
+        }
+        strong {
+            font-size: 1.2em;
+            color: #34495e;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            background-color: #ecf0f1;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <div id="app">
-        <h1>JSON Data Viewer</h1>
-        <div id="file-selector">
-            <label for="jsonFiles">Select a JSON file:</label>
-            <select id="jsonFiles"></select>
+    <div id="loan-info">
+        <h2>Ana's Loan Request</h2>
+        
+        <div>
+            <strong>Description:</strong>
+            <p>Ana is 38 years old, married, and is both a housewife and farmer. She has worked in agriculture ever since she was a young girl when her parents taught her about the land where she now grows coffee, corn, and beans. Ana has four children. The eldest attended school for nine years, the second completed primary school, and the last two are in different grades in primary school. A grandson also lives with her.</p>
+            
+            <p>The land she and her husband work is their own thanks to a purchase from one of their customers some time ago. It is located 15 minutes away by road; sometimes she goes there by horse or donkey.</p>
+            
+            <p>Ana is seeking a loan from the Comixmul Cooperative so she can pay for technical assistance with her crops. She would like to know more about weeding, fertilization, manure, etc., in order to get better harvests.</p>
+            
+            <p>Her future plan is to be able to grow a better variety of coffee like Bourbon, Caturra, and Lempira so that the beans she grows will be competitive and attractive to local and national markets.</p>
+            
+            <p>Ana's dream is to see her children attend university and get good jobs.</p>
         </div>
-        <div id="content"></div>
+        
+        <div>
+            <strong>Loan Purpose:</strong>
+            <p>Buy agricultural supplies and pay for technical assistance.</p>
+        </div>
+        
+        <div>
+            <strong>Image:</strong>
+            <img src="https://www-kiva-org-0.freetls.fastly.net/img/orig/e1deb968bf2c1af36b14125d665fbfcd.jpg" alt="Ana with coffee plants" width="300">
+        </div>
+        
+        <div>
+            <strong>Keywords:</strong>
+            <ul>
+                <li>Agricultural supplies</li>
+                <li>Technical assistance</li>
+                <li>Sustainable agriculture</li>
+                <li>Coffee production</li>
+                <li>Weeding, fertilization, and manure</li>
+                <li>Primary education and higher education</li>
+                <li>Gender equality</li>
+                <li>Family, marriage, and nutrition</li>
+            </ul>
+        </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
